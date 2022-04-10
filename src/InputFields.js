@@ -18,6 +18,7 @@ class InputFields extends Component {
 		this.setState({ timerID });
 	};
 
+	// Stops timer
 	stopTimer = (e) => {
 		clearInterval(this.state.timerID);
 	};
